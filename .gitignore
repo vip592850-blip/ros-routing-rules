@@ -1,0 +1,11 @@
+# 忽略运行 PHP 时在本地生成的规则文件（让它们只在 GitHub Actions 云端生成）
+*.rsc
+*.txt
+
+# 忽略可能产生的日志文件
+*.log
+error_log
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
