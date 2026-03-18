@@ -23,59 +23,72 @@
 ### 2\. 🚀 国内 IP 极速直连 (`cn_cache.rsc`)
 
   * **上游数据源**：APNIC 官方统计数据 (`delegated-apnic-latest`)
-  * **规则数量**：约 8800 条 IPv4 及 2000+ 条 IPv6 中国大陆地址段。
-  * **运作原理**：生成标准 ROS `address-list` 格式，可用于配置策略路由（PBR）或动态/静态路由表的精准分流，确保访问国内业务（如淘宝、B站）始终走本地最优出口，延迟最低。
+  * **规则详情**：约 8800 条 IPv4 及 2000+ 条 IPv6 中国大陆地址段。导入后会在 ROS 的 `/ip firewall address-list` 中生成名为 **`CN_V4`** 和 **`CN_IPV6`** 的列表。
+  * **运作原理**：可用于配置策略路由（PBR）、Mangle 标记或动态/静态路由表的精准分流，确保访问国内业务（如淘宝、B站）始终走本地最优出口，延迟最低。
 
 ### 3\. 🚫 全局广告与恶意域名黑洞 (`reject_adlist.txt`)
 
   * **上游数据源**：`Loyalsoldier/v2ray-rules-dat` (`reject-list.txt`)
-  * **规则数量**：约 17 万条已知广告、隐私追踪器及恶意挖矿脚本域名。
+  * **规则数量**：约 6.5 万条已知广告、隐私追踪器及恶意挖矿脚本域名。
   * **运作原理**：输出为极简的 `0.0.0.0 domain.com` 标准 Hosts 格式。完美适配 ROS v7.14+ 原生引入的 `/ip dns adlist` 引擎，由底层 C 语言极速解析，实现无感知的全屋网络去广告。
 
 -----
 
 ## 🔗 获取订阅链接 (API 地址)
 
-**方案 A：官方 GitHub 直连（推荐海外或网络环境良好的环境使用）**
+**方案 A：官方 GitHub 直连（推荐海外环境使用）**
 
   * DNS 转发规则：`https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc`
   * 国内 IP 地址簿：`https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc`
   * 全局去广告规则：`https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/reject_adlist.txt`
 
-**方案 B：国内代理加速版（解决 GitHub Raw 被墙或连接超时的痛点）**
+**方案 B：国内代理加速版（解决 GitHub Raw 域名被墙/超时报错）**
 
-> 感谢网友提供的高速转换代理。如果方案 A 在你的 ROS 内无法下载 (`fetch` 报错)，请直接在原始链接前加上 `https://listapp.linuxiarz.pl/convert?url=` 即可。
+> 提供两个备用方案：网友提供的转换代理，以及稳定合规的开源全球 CDN（推荐）。
 
-  * ⚡ DNS 转发规则 (加速)：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc`
-  * ⚡ 国内 IP 地址簿 (加速)：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc`
-  * ⚡ 全局去广告规则 (加速)：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/reject_adlist.txt`
+  * ⚡ **DNS 转发规则 (加速)**
+      * jsDelivr CDN：`https://cdn.jsdelivr.net/gh/vip592850-blip/ros-routing-rules@main/proxy_dns.rsc`
+      * 代理转发：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc`
+  * ⚡ **国内 IP 地址簿 (加速)**
+      * jsDelivr CDN：`https://cdn.jsdelivr.net/gh/vip592850-blip/ros-routing-rules@main/cn_cache.rsc`
+      * 代理转发：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc`
+  * ⚡ **全局去广告规则 (加速)**
+      * jsDelivr CDN：`https://cdn.jsdelivr.net/gh/vip592850-blip/ros-routing-rules@main/reject_adlist.txt`
+      * 代理转发：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/reject_adlist.txt`
 
-*(下文部署教程中，请根据自身网络情况，将 `$apiUrl` 变量替换为方案 A 或 B 的链接)*
+*(下文部署教程中，默认使用高可用性的 jsDelivr CDN 链接)*
 
 -----
 
 ## 🚀 RouterOS v7 详细部署指南
 
-为保护路由器 NAND Flash 闪存寿命并确保系统稳定，强烈建议采用\*\*“业务脚本 (Script) 与触发器 (Scheduler) 物理隔离”\*\*的显式调用规范。
+### ⚠️ 避坑必读：前置性能调优 (防止 DNS 崩溃)
+
+由于引入了总计近 10 万条的 DNS 和 Adlist 规则，ROS 默认的 2MB DNS 缓存会瞬间爆满并疯狂报错 `cache full, not storing`。
+在部署前，**必须**进入 ROS 终端执行以下命令，将 DNS 缓存扩容至 20MB：
+
+```routeros
+/ip dns set cache-size=20480
+```
 
 ### 一、 挂载去广告引擎 (Adlist)
 
 *适用版本：ROS v7.14 及以上*
-去广告模块无需编写复杂的下载脚本，ROS 原生支持极速远程挂载。请在 ROS 终端执行：
+去广告模块无需编写复杂的下载脚本，原生支持极速远程挂载。请在 ROS 终端执行：
 
 ```routeros
 /ip dns adlist
-add url="https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/reject_adlist.txt" ssl-verify=no
+add url="https://cdn.jsdelivr.net/gh/vip592850-blip/ros-routing-rules@main/reject_adlist.txt" ssl-verify=no
 ```
 
 ### 二、 部署智能 DNS 防污染脚本
 
-此脚本负责下载、清理旧规则并自动导入，自带容错机制。在 ROS 终端执行添加：
+此脚本负责下载、清理旧规则并自动导入，自带容错机制（使用显式脚本隔离保证闪存安全）。
 
 ```routeros
 /system script
 add name=UpdateProxyDNS policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive source=" \
-    :local apiUrl \"https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc\";\r\
+    :local apiUrl \"https://cdn.jsdelivr.net/gh/vip592850-blip/ros-routing-rules@main/proxy_dns.rsc\";\r\
     :local fileName \"proxy_dns.rsc\";\r\
     :log info \"[ProxyDNS] 开始获取最新 DNS 防污染规则...\";\r\
     \r\
@@ -90,7 +103,7 @@ add name=UpdateProxyDNS policy=ftp,reboot,read,write,policy,test,password,sniff,
             /file remove \$fileName;\r\
             :log info \"[ProxyDNS] 导入完成，临时文件已清理！\";\r\
         } else={\r\
-            :log error \"[ProxyDNS] 规则下载失败，请检查 URL 代理连通性！\";\r\
+            :log error \"[ProxyDNS] 规则下载失败，请检查 URL 连通性！\";\r\
         }\r\
     } on-error={\r\
         :log error \"[ProxyDNS] HTTPS 请求彻底失败，请检查路由器公网连接或上游 DNS！\";\r\
@@ -100,14 +113,12 @@ add name=UpdateProxyDNS policy=ftp,reboot,read,write,policy,test,password,sniff,
 
 ### 三、 部署国内 IP 直连脚本
 
-在 ROS 终端执行添加：
-
 ```routeros
 /system script
 add name=UpdateCNIP policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive source=" \
-    :local apiUrl \"https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc\";\r\
+    :local apiUrl \"https://cdn.jsdelivr.net/gh/vip592850-blip/ros-routing-rules@main/cn_cache.rsc\";\r\
     :local fileName \"cn_cache.rsc\";\r\
-    :log info \"[CN-IP] 开始获取最新国内 IP 地址段...\";\r\
+    :log info \"[CN-IP] 开始获取最新国内 IP 地址段 (CN_V4 / CN_IPV6)...\";\r\
     \r\
     :do {\r\
         /tool fetch url=\$apiUrl mode=https dst-path=\$fileName;\r\
@@ -144,17 +155,5 @@ add name=Schedule_UpdateCNIP \
     policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive \
     start-time=04:10:00 interval=1d
 ```
-
-*(注：两个定时任务刻意错开 10 分钟执行，避免瞬间高负载导致 CPU 飙升。)*
-
------
-
-## 🛠️ 测试与排错指北
-
-部署完毕后，建议您：
-
-1.  前往 ROS `System` -\> `Scripts`，选中刚建好的脚本点击 **Run Script** 进行手动冷启动测试。
-2.  打开 `Log` 窗口观察执行日志。若看到绿色的 `导入完成` 提示，即代表系统已稳定运行。
-3.  请确保您的 ROS 已配置了稳定的大陆常用全局 DNS（如 `223.5.5.5`，`119.29.29.29`）。
 
 -----
