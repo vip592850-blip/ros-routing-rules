@@ -1,47 +1,83 @@
-***
+-----
 
-# RouterOS v7 极客分流与防污染规则全自动生成器
+# RouterOS v7 极客网络分流与防污染规则引擎
 
-本项目利用 GitHub Actions 的全自动化 CI/CD 流程，每天定时从上游权威数据源拉取最新规则，并自动清洗、编译为 RouterOS v7 可直接导入的 `.rsc` 脚本文件。
-完全依靠 GitHub 全球 CDN 分发，**零服务器成本，极速更新**。
+[](https://www.google.com/search?q=https://github.com/vip592850-blip/ros-routing-rules/actions)
 
-## 📦 生成的规则文件
+本项目依托 GitHub Actions 全自动化 CI/CD 流水线，每天定时（北京时间凌晨 04:00）从全球权威的上游数据源抓取最新规则，并自动清洗、编译为 **RouterOS v7 (ROS)** 可直接挂载或导入的高效脚本文件。
 
-每天自动抓取并生成以下两个核心文件：
+借助 GitHub 全球 CDN 分发，实现零服务器成本维护，专为极客与高端玩家打造极致纯净、极速分流的网络体验。
 
-1. **`proxy_dns.rsc` (防 DNS 污染黑名单)**
-   * **数据源**：`Loyalsoldier/v2ray-rules-dat` (`proxy-list.txt`)
-   * **作用**：提取约 2.5 万条被墙或体验不佳的海外泛域名，利用 ROS v7 的 `match-subdomain=yes` 特性，将其强制转发（FWD）给安全 DNS（如 `8.8.8.8`）进行解析，从根源解决 DNS 污染与 CDN 乱跑问题。
-2. **`cn_cache.rsc` (国内 IP 明细路由)**
-   * **数据源**：APNIC 官方统计数据
-   * **作用**：生成最新的中国大陆 IPv4 / IPv6 地址段，用于配置本地路由直连或策略路由分流。
+-----
 
----
+## 📦 核心功能模块与规则库
 
-## 🚀 RouterOS v7 详细部署流程 (最佳实践)
+本项目每日自动编译并提供以下 3 个核心规则文件：
 
-为了保障系统稳定性及保护路由器 Flash 闪存寿命，强烈建议采用**“业务脚本 (Script) 与 触发器 (Scheduler) 物理隔离”**的显式调用架构。
+### 1\. 🛡️ 智能 DNS 防污染 (`proxy_dns.rsc`)
 
-### 第一阶段：获取你的专属直链 (RAW URL)
-部署前，请先进入你的 GitHub 仓库，点击生成的 `.rsc` 文件，再点击右上角的 **Raw** 按钮，获取真实的下载链接。
-格式如下：
-* `https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc`
-* `https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc`
+  * **上游数据源**：`Loyalsoldier/v2ray-rules-dat` (`proxy-list.txt`)
+  * **规则数量**：约 2.5 万条被墙或体验极差的海外泛域名。
+  * **运作原理**：利用 ROS v7 原生的 `match-subdomain=yes` 泛域名特性，将这些黑名单域名精准转发（FWD）至无污染的海外 DNS（如 `8.8.8.8`）进行解析，从根源解决 DNS 污染、连接重置与 CDN 跨国调度异常。
 
-### 第二阶段：配置核心下载与导入脚本 (System Script)
+### 2\. 🚀 国内 IP 极速直连 (`cn_cache.rsc`)
 
-该脚本负责文件下载、自动清理旧规则、导入新规则以及自动删除临时文件，内建完整的 Try-Catch 错误拦截机制。
+  * **上游数据源**：APNIC 官方统计数据 (`delegated-apnic-latest`)
+  * **规则数量**：约 8800 条 IPv4 及 2000+ 条 IPv6 中国大陆地址段。
+  * **运作原理**：生成标准 ROS `address-list` 格式，可用于配置策略路由（PBR）或动态/静态路由表的精准分流，确保访问国内业务（如淘宝、B站）始终走本地最优出口，延迟最低。
 
-在 ROS 终端中依次执行以下命令添加脚本：
+### 3\. 🚫 全局广告与恶意域名黑洞 (`reject_adlist.txt`)
 
-**1. 添加 DNS 防污染更新脚本**
+  * **上游数据源**：`Loyalsoldier/v2ray-rules-dat` (`reject-list.txt`)
+  * **规则数量**：约 6.5 万条已知广告、隐私追踪器及恶意挖矿脚本域名。
+  * **运作原理**：输出为极简的 `0.0.0.0 domain.com` 标准 Hosts 格式。完美适配 ROS v7.14+ 原生引入的 `/ip dns adlist` 引擎，由底层 C 语言极速解析，实现无感知的全屋网络去广告。
+
+-----
+
+## 🔗 获取订阅链接 (API 地址)
+
+**方案 A：官方 GitHub 直连（推荐海外或网络环境良好的环境使用）**
+
+  * DNS 转发规则：`https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc`
+  * 国内 IP 地址簿：`https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc`
+  * 全局去广告规则：`https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/reject_adlist.txt`
+
+**方案 B：国内代理加速版（解决 GitHub Raw 被墙或连接超时的痛点）**
+
+> 感谢网友提供的高速转换代理。如果方案 A 在你的 ROS 内无法下载 (`fetch` 报错)，请直接在原始链接前加上 `https://listapp.linuxiarz.pl/convert?url=` 即可。
+
+  * ⚡ DNS 转发规则 (加速)：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc`
+  * ⚡ 国内 IP 地址簿 (加速)：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc`
+  * ⚡ 全局去广告规则 (加速)：`https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/reject_adlist.txt`
+
+*(下文部署教程中，请根据自身网络情况，将 `$apiUrl` 变量替换为方案 A 或 B 的链接)*
+
+-----
+
+## 🚀 RouterOS v7 详细部署指南
+
+为保护路由器 NAND Flash 闪存寿命并确保系统稳定，强烈建议采用\*\*“业务脚本 (Script) 与触发器 (Scheduler) 物理隔离”\*\*的显式调用规范。
+
+### 一、 挂载去广告引擎 (Adlist)
+
+*适用版本：ROS v7.14 及以上*
+去广告模块无需编写复杂的下载脚本，ROS 原生支持极速远程挂载。请在 ROS 终端执行：
+
+```routeros
+/ip dns adlist
+add url="https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/reject_adlist.txt" ssl-verify=no
+```
+
+### 二、 部署智能 DNS 防污染脚本
+
+此脚本负责下载、清理旧规则并自动导入，自带容错机制。在 ROS 终端执行添加：
 
 ```routeros
 /system script
 add name=UpdateProxyDNS policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive source=" \
-    :local apiUrl \"https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc\";\r\
+    :local apiUrl \"https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc\";\r\
     :local fileName \"proxy_dns.rsc\";\r\
-    :log info \"[ProxyDNS] 开始从 GitHub 拉取最新 DNS 黑名单规则...\";\r\
+    :log info \"[ProxyDNS] 开始获取最新 DNS 防污染规则...\";\r\
     \r\
     :do {\r\
         /tool fetch url=\$apiUrl mode=https dst-path=\$fileName;\r\
@@ -52,38 +88,39 @@ add name=UpdateProxyDNS policy=ftp,reboot,read,write,policy,test,password,sniff,
             /import file-name=\$fileName;\r\
             :delay 2s;\r\
             /file remove \$fileName;\r\
-            :log info \"[ProxyDNS] 导入完成，清理本地临时文件成功！\";\r\
+            :log info \"[ProxyDNS] 导入完成，临时文件已清理！\";\r\
         } else={\r\
-            :log error \"[ProxyDNS] 文件未生成，请检查 GitHub URL 是否正确！\";\r\
+            :log error \"[ProxyDNS] 规则下载失败，请检查 URL 代理连通性！\";\r\
         }\r\
     } on-error={\r\
-        :log error \"[ProxyDNS] HTTPS 请求彻底失败，请检查路由器公网连接或 DNS 解析！\";\r\
+        :log error \"[ProxyDNS] HTTPS 请求彻底失败，请检查路由器公网连接或上游 DNS！\";\r\
     }\
 "
 ```
 
-**2. 添加国内 IP 段更新脚本（如果需要通过 RSC 导入路由）**
-> 💡 **进阶建议：** 对于小内存路由器（如 hAP ax lite），建议通过 BIRD 等动态路由协议（BGP）下发 IP 段至内存，以减少 Flash 擦写。如确需静态导入，可使用以下脚本。
+### 三、 部署国内 IP 直连脚本
+
+在 ROS 终端执行添加：
 
 ```routeros
 /system script
 add name=UpdateCNIP policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive source=" \
-    :local apiUrl \"https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc\";\r\
+    :local apiUrl \"https://listapp.linuxiarz.pl/convert?url=https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc\";\r\
     :local fileName \"cn_cache.rsc\";\r\
-    :log info \"[CN-IP] 开始从 GitHub 拉取最新国内 IP 段...\";\r\
+    :log info \"[CN-IP] 开始获取最新国内 IP 地址段...\";\r\
     \r\
     :do {\r\
         /tool fetch url=\$apiUrl mode=https dst-path=\$fileName;\r\
         :delay 3s;\r\
         \r\
         :if ([:len [/file find name=\$fileName]] > 0) do={\r\
-            :log info \"[CN-IP] 下载成功，开始导入路由表...\";\r\
+            :log info \"[CN-IP] 下载成功，开始导入地址列表...\";\r\
             /import file-name=\$fileName;\r\
             :delay 2s;\r\
             /file remove \$fileName;\r\
-            :log info \"[CN-IP] 导入完成，清理本地临时文件成功！\";\r\
+            :log info \"[CN-IP] 导入完成，临时文件已清理！\";\r\
         } else={\r\
-            :log error \"[CN-IP] 文件未生成！\";\r\
+            :log error \"[CN-IP] 下载失败！\";\r\
         }\r\
     } on-error={\r\
         :log error \"[CN-IP] HTTPS 请求彻底失败！\";\r\
@@ -91,10 +128,9 @@ add name=UpdateCNIP policy=ftp,reboot,read,write,policy,test,password,sniff,sens
 "
 ```
 
-### 第三阶段：配置定时任务 (System Scheduler)
+### 四、 设定全自动定时任务 (Scheduler)
 
-通过显式调用 `/system script run [任务名称]` 的方式触发脚本，避免权限环境错乱。
-为了保护路由器 NAND Flash 闪存寿命，定时任务设定为每天凌晨 4 点（网络闲时）执行一次。
+通过显式调用 `/system script run`，设定在每日凌晨网络闲时自动更新规则。
 
 ```routeros
 /system scheduler
@@ -108,13 +144,17 @@ add name=Schedule_UpdateCNIP \
     policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive \
     start-time=04:10:00 interval=1d
 ```
-*(注：两个定时任务建议错开 10 分钟执行，避免同时高负载下载和导入导致 CPU 飙升。)*
 
----
+*(注：两个定时任务刻意错开 10 分钟执行，避免瞬间高负载导致 CPU 飙升。)*
 
-## 🛠️ 运维与测试建议
+-----
 
-1. **手动测试机制**：部署完成后，可前往 ROS `System` -> `Scripts` 菜单，选中对应的脚本点击 **Run Script**，随后观察 `Log` 面板是否有成功的绿色日志输出。
-2. **DNS 配置前置要求**：在使用 `proxy_dns.rsc` 前，请确保 ROS 的 `/ip dns` 菜单中已经配置了可靠的上游全局 DNS（如 `223.5.5.5` 等），且路由器的网络能够正常访问海外 `raw.githubusercontent.com` 节点。
+## 🛠️ 测试与排错指北
 
-***
+部署完毕后，建议您：
+
+1.  前往 ROS `System` -\> `Scripts`，选中刚建好的脚本点击 **Run Script** 进行手动冷启动测试。
+2.  打开 `Log` 窗口观察执行日志。若看到绿色的 `导入完成` 提示，即代表系统已稳定运行。
+3.  请确保您的 ROS 已配置了稳定的大陆常用全局 DNS（如 `223.5.5.5`，`119.29.29.29`）。
+
+-----
