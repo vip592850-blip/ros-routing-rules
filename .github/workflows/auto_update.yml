@@ -1,0 +1,41 @@
+name: Auto Update ROS Rules
+
+on:
+  schedule:
+    # 每天北京时间凌晨 4 点 (UTC 时间 20:00) 自动运行
+    - cron: '0 20 * * *'
+  # 允许网页端手动点击运行，方便测试
+  workflow_dispatch:
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Run Update Scripts
+        run: |
+          php update_cn.php
+          php update_dns.php
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add proxy_dns.rsc
+          # 如果你的 update_cn.php 生成的是 cn_cache.rsc，把下一行取消注释
+          # git add cn_cache.rsc 
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update rules: $(date +'%Y-%m-%d')"
+            git push
+          fi
