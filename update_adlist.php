@@ -8,7 +8,7 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-curl_setopt($ch, CURLOPT_TIMEOUT, 120); // 放宽超时时间到2分钟，防止 GitHub 节点波动
+curl_setopt($ch, CURLOPT_TIMEOUT, 120);
 $data = curl_exec($ch);
 curl_close($ch);
 
@@ -23,24 +23,26 @@ $out_content = "";
 foreach ($lines as $line) {
     $line = trim($line);
     
-    // 丢弃注释和空行
     if (empty($line) || strpos($line, '#') === 0) continue;
-    // 丢弃 ROS 无法处理的关键词和正则匹配
     if (strpos($line, 'keyword:') === 0 || strpos($line, 'regexp:') === 0) continue;
 
-    // 清洗域名
+    $line = explode('@', $line)[0];
+    $line = trim($line);
+    if (empty($line)) continue;
+
+    $domain = "";
+    
     if (strpos($line, 'full:') === 0) {
         $domain = substr($line, 5);
+    } elseif (strpos($line, 'domain:') === 0) {
+        $domain = substr($line, 7);
     } else {
-        $domain = str_replace('domain:', '', $line);
+        if (strpos($line, ':') === false) {
+            $domain = $line;
+        }
     }
     
-    // 去除规则中可能带有的环境标签（如 @ads）
-    $domain = explode('@', $domain)[0];
-    $domain = trim($domain);
-    
     if (!empty($domain)) {
-        // 拼接成标准 Hosts 格式并换行
         $out_content .= "0.0.0.0 {$domain}\n";
         $rule_count++;
     }
