@@ -1,52 +1,48 @@
 <?php
-// 文件名: update_cn.php
-// 作用: 拉取 APNIC 数据，同时生成 IPv4 和 IPv6 的 ROS 脚本
+echo "开始拉取 APNIC 中国大陆 IP 数据...\n";
 
-$apnic_url = "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest";
-$cache_file = __DIR__ . '/cn_cache.rsc';
+$url = "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest";
+$output_file = __DIR__ . "/cn_cache.rsc";
 
-echo "开始拉取 APNIC 数据...\n";
-$data = file_get_contents($apnic_url);
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_TIMEOUT, 120);
+$data = curl_exec($ch);
+curl_close($ch);
 
-if (!$data) {
-    die("错误：无法获取 APNIC 数据！\n");
+if (empty($data)) {
+    die("错误：APNIC 数据下载失败！\n");
 }
 
 $lines = explode("\n", $data);
+$ipv4_count = 0;
+$ipv6_count = 0;
 
-// 准备 IPv4 和 IPv6 的 ROS 命令头部
-$rsc_ipv4 = "/ip firewall address-list remove [find list=CN_V4]\n/ip firewall address-list\n";
-$rsc_ipv6 = "/ipv6 firewall address-list remove [find list=CN_V6]\n/ipv6 firewall address-list\n";
-
-$count_v4 = 0;
-$count_v6 = 0;
+$rsc_content = "/ip firewall address-list remove [find list=\"CN_IP\"]\n";
+$rsc_content .= "/ipv6 firewall address-list remove [find list=\"CN_IPV6\"]\n";
 
 foreach ($lines as $line) {
-    // 1. 处理 IPv4
     if (strpos($line, 'apnic|CN|ipv4|') === 0) {
         $parts = explode('|', $line);
         $ip = $parts[3];
         $count = (int)$parts[4];
-        $mask = 32 - log($count, 2); // 算出掩码
-        $rsc_ipv4 .= "add list=CN_V4 address={$ip}/{$mask}\n";
-        $count_v4++;
-    }
-    // 2. 处理 IPv6 (无需计算掩码，第5列直接是前缀)
-    elseif (strpos($line, 'apnic|CN|ipv6|') === 0) {
+        $mask = 32 - log($count, 2);
+        $rsc_content .= "/ip firewall address-list add list=CN_IP address={$ip}/{$mask}\n";
+        $ipv4_count++;
+    } elseif (strpos($line, 'apnic|CN|ipv6|') === 0) {
         $parts = explode('|', $line);
         $ip = $parts[3];
-        $prefix = $parts[4]; // 直接获取前缀长度
-        $rsc_ipv6 .= "add list=CN_V6 address={$ip}/{$prefix}\n";
-        $count_v6++;
+        $mask = $parts[4];
+        $rsc_content .= "/ipv6 firewall address-list add list=CN_IPV6 address={$ip}/{$mask}\n";
+        $ipv6_count++;
     }
 }
 
-// 拼接最终的脚本文本
-$final_rsc = "# IPv4 路由分流表 ({$count_v4}条)\n" . $rsc_ipv4 . "\n\n";
-$final_rsc .= "# IPv6 路由分流表 ({$count_v6}条)\n" . $rsc_ipv6 . "\n";
-
-// 写入缓存文件
-file_put_contents($cache_file, $final_rsc);
-
-echo "成功！已生成 {$count_v4} 条 IPv4 段，以及 {$count_v6} 条 IPv6 段。\n";
+if (file_put_contents($output_file, $rsc_content) !== false) {
+    echo "成功！已生成 {$ipv4_count} 条 IPv4 段，以及 {$ipv6_count} 条 IPv6 段。\n";
+} else {
+    echo "错误：写入文件失败！\n";
+}
 ?>
