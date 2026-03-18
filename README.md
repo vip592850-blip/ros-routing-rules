@@ -25,8 +25,8 @@
 ### 第一阶段：获取你的专属直链 (RAW URL)
 部署前，请先进入你的 GitHub 仓库，点击生成的 `.rsc` 文件，再点击右上角的 **Raw** 按钮，获取真实的下载链接。
 格式如下：
-* `https://raw.githubusercontent.com/[你的用户名]/[仓库名]/main/proxy_dns.rsc`
-* `https://raw.githubusercontent.com/[你的用户名]/[仓库名]/main/cn_cache.rsc`
+* `https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc`
+* `https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc`
 
 ### 第二阶段：配置核心下载与导入脚本 (System Script)
 
