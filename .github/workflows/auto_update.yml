@@ -2,9 +2,9 @@ name: Auto Update ROS Rules
 
 on:
   schedule:
-    # 每天 UTC 时间 20:00 自动运行 (北京/东京时间凌晨 04:00 左右，网络闲时)
+    # 每天 UTC 时间 20:00 (北京时间凌晨 04:00) 自动运行
     - cron: '0 20 * * *'
-  # 允许在 GitHub 网页端手动点击按钮触发运行
+  # 允许在 GitHub 网页端手动触发
   workflow_dispatch:
 
 jobs:
@@ -22,21 +22,21 @@ jobs:
 
       - name: Run Update Scripts
         run: |
-          # 依次运行你的两个 PHP 数据抓取与清洗脚本
           php update_cn.php
           php update_dns.php
+          php update_adlist.php
 
       - name: Commit and Push Changes
         run: |
-          # 配置 GitHub 机器人的提交身份
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           
-          # 强制将两个生成的 .rsc 文件添加到暂存区
+          # 强制将 3 个生成的规则文件添加到暂存区
           git add proxy_dns.rsc
           git add cn_cache.rsc
+          git add reject_adlist.txt
           
-          # 判断文件内容是否有更新，有更新才提交，防止空提交报错
+          # 判断是否有变动，避免空提交报错
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
