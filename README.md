@@ -40,7 +40,7 @@
 ```routeros
 /system script
 add name=UpdateProxyDNS policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive source=" \
-    :local apiUrl \"https://raw.githubusercontent.com/你的用户名/仓库名/main/proxy_dns.rsc\";\r\
+    :local apiUrl \"https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/proxy_dns.rsc\";\r\
     :local fileName \"proxy_dns.rsc\";\r\
     :log info \"[ProxyDNS] 开始从 GitHub 拉取最新 DNS 黑名单规则...\";\r\
     \r\
@@ -69,7 +69,7 @@ add name=UpdateProxyDNS policy=ftp,reboot,read,write,policy,test,password,sniff,
 ```routeros
 /system script
 add name=UpdateCNIP policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive source=" \
-    :local apiUrl \"https://raw.githubusercontent.com/你的用户名/仓库名/main/cn_cache.rsc\";\r\
+    :local apiUrl \"https://raw.githubusercontent.com/vip592850-blip/ros-routing-rules/main/cn_cache.rsc\";\r\
     :local fileName \"cn_cache.rsc\";\r\
     :log info \"[CN-IP] 开始从 GitHub 拉取最新国内 IP 段...\";\r\
     \r\
