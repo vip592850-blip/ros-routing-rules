@@ -35,7 +35,6 @@
 在 ROS 终端中依次执行以下命令添加脚本：
 
 **1. 添加 DNS 防污染更新脚本**
-> ⚠️ **注意：** 请将 `apiUrl` 变量的值替换为你自己的 GitHub Raw 链接！
 
 ```routeros
 /system script
