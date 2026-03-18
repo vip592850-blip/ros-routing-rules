@@ -20,7 +20,8 @@ $lines = explode("\n", $data);
 $ipv4_count = 0;
 $ipv6_count = 0;
 
-$rsc_content = "/ip firewall address-list remove [find list=\"CN_IP\"]\n";
+// 严格还原 Address List 名称为 CN_V4 和 CN_IPV6
+$rsc_content = "/ip firewall address-list remove [find list=\"CN_V4\"]\n";
 $rsc_content .= "/ipv6 firewall address-list remove [find list=\"CN_IPV6\"]\n";
 
 foreach ($lines as $line) {
@@ -29,7 +30,8 @@ foreach ($lines as $line) {
         $ip = $parts[3];
         $count = (int)$parts[4];
         $mask = 32 - log($count, 2);
-        $rsc_content .= "/ip firewall address-list add list=CN_IP address={$ip}/{$mask}\n";
+        // 严格使用 list=CN_V4
+        $rsc_content .= "/ip firewall address-list add list=CN_V4 address={$ip}/{$mask}\n";
         $ipv4_count++;
     } elseif (strpos($line, 'apnic|CN|ipv6|') === 0) {
         $parts = explode('|', $line);
