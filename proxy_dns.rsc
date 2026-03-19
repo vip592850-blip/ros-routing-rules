@@ -20903,6 +20903,11 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokv.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokw.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokw.us" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tilda.cc" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tilda.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tilda.ws" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tildaapi.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tildacdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiltbrush.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timdir.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="time.com" type=FWD
