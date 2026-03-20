@@ -3214,6 +3214,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beeg.rest" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beegfree.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beejp.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beeline.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beepool.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beepool.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beevpn.com" type=FWD
@@ -16243,12 +16244,14 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okayfreedom.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okazudouga.tokyo" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okcdn.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okcoin.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okex.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okinawabank.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okk.tw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okkisokuho.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okko.sport" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okko.tv" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="oklink.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okpool.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okx-dns.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="okx-dns1.com" type=FWD
