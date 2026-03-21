@@ -3286,6 +3286,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bestbuyus.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bestcamsites.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bestclouddrive.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bestdori.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="besterpornos.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bestescortgirls.nl" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bestfreecams.club" type=FWD
@@ -5226,6 +5227,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chyoa.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ci-en.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ci-en.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cia.gov" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ciattackers.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cici.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ciciai.com" type=FWD
@@ -24416,6 +24418,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhuzhushipin-app.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zi.media" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zibacity.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ziglang.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zigzag.kr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zillionk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zim.vn" type=FWD
