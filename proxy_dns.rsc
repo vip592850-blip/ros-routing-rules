@@ -16411,6 +16411,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openlibrary.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openmaps.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openreality.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openrec.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openresty.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openreview.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openrouter.ai" type=FWD
@@ -18587,6 +18588,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s-nbcnews.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s-rewards.hk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s-xoom.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s.rmimg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s.team" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s1s1s1.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s2csntp.miz.nao.ac.jp" type=FWD
@@ -24678,6 +24680,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-pinata-support.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="download.visualstudio.microsoft.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqd0jw5gvbchn.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqrpb9wgowsf5.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ds-linear-abematv.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ds-vod-abematv.akamaized.net" type=FWD
