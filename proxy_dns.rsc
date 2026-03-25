@@ -16554,8 +16554,15 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozeex.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozodi.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozodlik.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozon.by" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozon.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozon.com.by" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozon.com.kz" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozon.kz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozon.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozon.tm" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozone.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozonru.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozonusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ozvoice.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pa9pal.com" type=FWD
@@ -23323,6 +23330,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xiaolan.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xiaoma.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xiaomi.eu" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xiaomiflash.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xiaoou.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xiaoou.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xiaoshuobb.life" type=FWD
@@ -23370,6 +23378,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xmoviesforyou.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--096-4g6em5t.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--11xs86f.icu" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--1jqvh729avzfcy2d8ummib.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--201-4g6em5t.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--202-4g6em5t.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--203-4g6em5t.com" type=FWD
