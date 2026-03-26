@@ -10373,7 +10373,6 @@
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:f6c0::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:f940::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:fdc0::/32
-/ipv6 firewall address-list add list=CN_IPV6 address=2405:ff80::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:40::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:80::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:c0::/32
