@@ -17946,6 +17946,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qbittorrent.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qbmengmei6.mom" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qcmod.xyz" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qcomgeo2.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qctconnect.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qdiehzz7.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qgadmin.qcpp1.net" type=FWD
@@ -17990,6 +17991,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qt.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qtrac.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm-email.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm-inc.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm.co.id" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm.co.in" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm.co.jp" type=FWD
@@ -23434,6 +23436,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--hxtr4rozx.xn--czr694b" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--i2ru8q2qg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--jlq480n2rg" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--kcrv3utim32hx9f6qe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--kput3imi374g.xn--hxt814e" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--mts47c3w9b1qr.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--mtswd61ejxq.com" type=FWD
