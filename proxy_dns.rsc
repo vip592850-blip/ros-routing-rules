@@ -18603,7 +18603,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s-nbcnews.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s-rewards.hk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s-xoom.com" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s.rmimg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s.team" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s1s1s1.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="s2csntp.miz.nao.ac.jp" type=FWD
