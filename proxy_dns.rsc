@@ -7696,6 +7696,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="eskimotube.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="eslite.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esm.run" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esm.sh" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esmarthealth.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esmatube.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esopworld.com" type=FWD
@@ -17269,6 +17270,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pjful-app.lol" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pjgirls.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pjsekai.sega.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pkgbuild.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pki-post.ch" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pki-posta.ch" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pki-poste.ch" type=FWD
@@ -25292,6 +25294,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wip3.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wip4.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wrds-www.wharton.upenn.edu" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ws.audioscrobbler.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wwis-dubc1-vip100.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wwis-dubc1-vip101.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wwis-dubc1-vip102.adobe.com" type=FWD
