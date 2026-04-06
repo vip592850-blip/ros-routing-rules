@@ -6724,6 +6724,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dogmovie.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dogofcum.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dogspics.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="doh.sb" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="doi.info" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="doi.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dojin-dl.com" type=FWD
@@ -6762,6 +6763,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="doseofporn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dot-mac.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dot.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dot.sb" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dotcernpilot.info" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dotdeb.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dotfacebook.com" type=FWD
