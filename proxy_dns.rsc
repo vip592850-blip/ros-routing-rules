@@ -5738,6 +5738,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crackle.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="craigslist.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crankplayer.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crashlytics.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crates.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crazy-amateurs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crazyav.xyz" type=FWD
@@ -8490,7 +8491,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fiotolia.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fire-emblem-heroes.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firearmsworld.net" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebase-settings.crashlytics.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebase.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebase.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebaseapp.com" type=FWD
@@ -21817,7 +21817,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="up.audio" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="up01.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="upbit.com" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="update.crashlytics.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="updatetube.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="upfrontcfd.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="upfrontfea.com" type=FWD
