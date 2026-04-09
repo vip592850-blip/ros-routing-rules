@@ -14171,7 +14171,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="meetandfuckgames.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="meetfasttrack.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="meetsmartbook.com" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="meetup.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="meetyourdevices.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mega.co.nz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mega.io" type=FWD
@@ -18084,7 +18083,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="python.com.tw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="python.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pythonhosted.org" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pytorch.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pzforever.skin" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pzforever01.homes" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pzhanfor.today" type=FWD
