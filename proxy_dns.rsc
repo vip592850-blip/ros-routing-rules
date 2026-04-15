@@ -1718,6 +1718,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aniscartujo.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="anistreaming.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ankarazirvesi2018.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ankiuser.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ankiweb.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="anm.co.uk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="annamilk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="annas-archive.gd" type=FWD
@@ -2197,6 +2199,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archiveofourown.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archives.gov" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archivx.to" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinux.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinux.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinuxarm.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinuxcn.org" type=FWD
