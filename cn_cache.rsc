@@ -3939,7 +3939,6 @@
 /ip firewall address-list add list=CN_V4 address=103.152.168.0/23
 /ip firewall address-list add list=CN_V4 address=103.152.170.0/23
 /ip firewall address-list add list=CN_V4 address=103.152.186.0/23
-/ip firewall address-list add list=CN_V4 address=103.152.190.0/23
 /ip firewall address-list add list=CN_V4 address=103.152.192.0/23
 /ip firewall address-list add list=CN_V4 address=103.152.200.0/23
 /ip firewall address-list add list=CN_V4 address=103.152.208.0/23
@@ -6403,6 +6402,7 @@
 /ip firewall address-list add list=CN_V4 address=163.128.30.0/23
 /ip firewall address-list add list=CN_V4 address=163.128.152.0/23
 /ip firewall address-list add list=CN_V4 address=163.128.236.0/23
+/ip firewall address-list add list=CN_V4 address=163.128.254.0/23
 /ip firewall address-list add list=CN_V4 address=163.142.0.0/16
 /ip firewall address-list add list=CN_V4 address=163.177.0.0/16
 /ip firewall address-list add list=CN_V4 address=163.179.0.0/16
@@ -9544,6 +9544,7 @@
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:5340::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:5820::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:5880::/32
+/ipv6 firewall address-list add list=CN_IPV6 address=2402:5920::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:5940::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:59c0::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:5a40::/32
@@ -10427,7 +10428,6 @@
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:3300::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:3340::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:3380::/32
-/ipv6 firewall address-list add list=CN_IPV6 address=2406:3440::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:3480::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:34c0::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:3580::/32

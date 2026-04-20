@@ -753,6 +753,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguard.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguard.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguardaccount.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguardcdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguardvpn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adhelpnews.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adidas-archive.org" type=FWD
