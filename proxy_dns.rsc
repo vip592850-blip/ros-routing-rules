@@ -14838,6 +14838,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="minilondon.co" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="minimarkham.ca" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="minimarkham.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="minimax.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="minimoncton.ca" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="minimoncton.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="minimontrealcentre.ca" type=FWD
@@ -19272,6 +19273,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scolle.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scoop.sh" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scopus.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scorecardresearch.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scoreclassics.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scorediscounts.club" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scoregroup.com" type=FWD
