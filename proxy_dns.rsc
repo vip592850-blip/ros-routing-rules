@@ -11819,6 +11819,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="improd.works" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="imstagram.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="imtagram.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="imtintl.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="imzog.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="inaporn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="inasian.club" type=FWD
