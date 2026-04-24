@@ -1006,6 +1006,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="agefans.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="agemys.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="agendaweek.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="agentclientprotocol.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="agilebits.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="agnesb.fr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="agoogleaday.com" type=FWD
@@ -17558,6 +17559,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="placesdocs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="planetminecraft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="planetsuzy.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="plannotator.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="plansondemand.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="plantsvszombies2.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="plasticlabs.com" type=FWD
@@ -22005,6 +22007,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="twistys.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="twitch.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="twitchcdn.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="twitchcon.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="twitchsvc.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="twitcomike.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="twitiq.com" type=FWD
