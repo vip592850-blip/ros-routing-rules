@@ -21026,6 +21026,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tech-mail.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tech26.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="techatbloomberg.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="techbang.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="techcrunch.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="techhub.ms" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="techliquidators.com" type=FWD
