@@ -22242,6 +22242,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="upornia.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="uporno.xxx" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="uproxy.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="upsangel.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="uptodown.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ura-akiba.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="uraban.me" type=FWD
