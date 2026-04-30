@@ -25845,6 +25845,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="time4.google.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="time5.facebook.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="tmdb-image-prod.b-cdn.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="tmdb-web-image-prod.b-cdn.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="tv.applemusic.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="tvcastlive-hamivideo.cdn.hinet.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ubisoft-orbit-savegames.s3.amazonaws.com" type=FWD
