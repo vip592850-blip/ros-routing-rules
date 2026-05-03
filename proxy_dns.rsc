@@ -20102,6 +20102,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="softbankventuresasia.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="softbankworld.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="softether-download.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="softether.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="softether.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="softfamous.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="softmodels.net" type=FWD
