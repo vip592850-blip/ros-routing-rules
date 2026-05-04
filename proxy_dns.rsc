@@ -6506,6 +6506,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="digitaldesire.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="digitalhub.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="digitalid.ch" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="digitalocean-ui.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="digitalocean.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="digitaloceanspaces.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="digitalpack.com" type=FWD
