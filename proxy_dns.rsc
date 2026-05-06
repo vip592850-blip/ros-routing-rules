@@ -25537,6 +25537,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d1k2us671qcoau.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d1m7jfoe9zdc1j.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d1mhjrowxxagfy.cloudfront.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d1ndex63qxojbr.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d1oca24q5dwo6d.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d1unuk07s6td74.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d1v5ir2lpwr8os.cloudfront.net" type=FWD
