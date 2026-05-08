@@ -22287,6 +22287,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ultravpn.fr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="uma.media" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="umagazine.com.hk" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="umap.openstreetmap.fr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="umass.edu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="umbrella.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="umschool.net" type=FWD
