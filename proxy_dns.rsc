@@ -23129,6 +23129,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vodafone.com.tr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vodafone.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vodafone.it" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vodafone.nl" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="voicettank.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vokevr.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vol.moe" type=FWD
