@@ -6100,6 +6100,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="data-tscbank.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="data-vocabulary.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="data.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="data18.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="datacloudmy.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dataframeworks.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dataliberation.org" type=FWD
@@ -7034,6 +7035,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dstk.dk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dswz88.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dsyiren.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dt18.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dtci.co" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dtci.technology" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dtiblog.com" type=FWD
@@ -9550,6 +9552,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gettyimages.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getuploader.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getws1.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getwsj.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getwsone.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getzola.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gfacecbook.com" type=FWD
@@ -12682,6 +12685,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="javdove.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="javdove8.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="javextreme.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="javfc2.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="javfilms.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="javfinder.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="javfor.me" type=FWD
