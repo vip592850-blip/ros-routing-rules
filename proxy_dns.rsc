@@ -5298,6 +5298,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chocolatey.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="choicereviews.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chomp.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chonglangtv.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chrdnet.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="christianfreedom.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="christianstudy.com" type=FWD
