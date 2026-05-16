@@ -23484,6 +23484,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vultr.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vultryhw.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vuvuzela.io" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vv1865.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vzw.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="w-mt.co" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="w-pool.com" type=FWD
