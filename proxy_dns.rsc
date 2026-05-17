@@ -2211,6 +2211,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archivx.to" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinux.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinux.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinux.page" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinuxarm.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="archlinuxcn.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="arcraiders.com" type=FWD
