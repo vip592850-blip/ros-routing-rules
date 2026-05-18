@@ -19983,6 +19983,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="siam.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sibreal.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sidelinesnews.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sider.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="siege-amazon.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sifangclub.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sigcomm.org" type=FWD
@@ -25437,6 +25438,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhainanjidid.top" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhangboz1.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhangtianliang.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhangzhehan.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhanlve.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhao.1984.city" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zhengjian.org" type=FWD
