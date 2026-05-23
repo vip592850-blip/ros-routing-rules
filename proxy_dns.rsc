@@ -219,6 +219,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="233abc.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="2371tom.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="24h.tv" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="24hbook.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="24hjav.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="24hrs.ca" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="24porn.com" type=FWD
@@ -14218,6 +14219,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="marvelsuperwar.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="marxist.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="marxists.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mas.to" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="masalabin.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="masaladesi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="masalaseen.net" type=FWD
@@ -15901,6 +15903,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nenitas.club" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nentindo.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="neo-miracle.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="neodb.social" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="neoforged.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="neotokyo.supertop-100.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="neovim.io" type=FWD
