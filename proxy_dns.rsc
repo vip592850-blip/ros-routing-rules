@@ -14738,6 +14738,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="micstl.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="midatlanticbmwmotorcycles.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="midentsolutions.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="midjourney.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="midoushe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mie.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="miexnoviadesnuda.com" type=FWD
