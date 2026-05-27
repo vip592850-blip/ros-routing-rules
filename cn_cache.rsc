@@ -10363,7 +10363,6 @@
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:e040::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:e1c0::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:e600::/32
-/ipv6 firewall address-list add list=CN_IPV6 address=2405:ed40::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:ef40::/30
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:f340::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2405:f580::/32
