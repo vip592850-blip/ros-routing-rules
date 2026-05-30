@@ -2259,6 +2259,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="arxiv.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="arzon.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="as-hp.ca" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="as.mr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asacp.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asagaku.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asahi.com" type=FWD
@@ -9490,6 +9491,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gemfury.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gemini.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gen.lib.rus.ec" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gencraft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gendai.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="generated.photos" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="genetic-technologies.am" type=FWD
@@ -22699,6 +22701,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vdoav.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vecchiescopate.casa" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vector.im" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="veed.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="veet.at" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="veet.be" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="veet.ca" type=FWD
@@ -25083,7 +25086,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yhy.cool" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yibaochina.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yibei.org" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yidio.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yigeni.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yimg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yimg.jp" type=FWD
