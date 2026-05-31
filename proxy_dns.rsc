@@ -13784,6 +13784,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="livexxx.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="livingstream.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="livingyourambition.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="livinno.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="livrariart.com.br" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="lizardporn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="lizol.co.in" type=FWD
@@ -16966,6 +16967,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ootbstudio.co.kr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="op.gg" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="op7979.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="opac-project.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="open.firstory.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openai.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openamt.com" type=FWD
