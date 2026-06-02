@@ -9554,6 +9554,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getmdl.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getnews.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getoutline.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getpaint.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getpocket.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getporn.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getprintersupports.com" type=FWD
@@ -17207,6 +17208,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paimon.moe" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="painfulpussytortures.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="painnovel.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paint.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paipal.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paipancon.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paisapay.cc" type=FWD
