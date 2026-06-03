@@ -21862,6 +21862,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tomp3.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tomsguide.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ton.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="toncenter.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tonec.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tonicmovies.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="toolforge.org" type=FWD
