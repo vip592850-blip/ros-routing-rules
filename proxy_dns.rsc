@@ -5456,6 +5456,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claude.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claude.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claudemcpclient.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claudemcpcontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claudeusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="clawhub.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="clck.ru" type=FWD
@@ -21199,6 +21200,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sustainthesound.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="suxib.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="suxiebu.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="suyingtv.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="suzuri.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="svaboda.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="svc.ms" type=FWD
@@ -24328,6 +24330,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wp-themes.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wpewebkit.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wplace.live" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wpoforum.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wpvip.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wrenchead.com" type=FWD
@@ -26533,6 +26536,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wwis-dubc1-vip98.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wwis-dubc1-vip99.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="www-cdn.icloud.com.akadns.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="www.quora.com.cdn.cloudflare.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="yangzhi.app" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="yt3.googleusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="zeenews-fonts.s3.amazonaws.com" type=FWD
