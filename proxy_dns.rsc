@@ -16554,6 +16554,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="noticias-rt.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notimundo.press" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notion-static.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notion-status.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notion.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notion.new" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notion.site" type=FWD
