@@ -12057,6 +12057,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="infocert.it" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="infoglobo.com.br" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="infolinker.com.tw" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="infoq.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="infoq.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="informs.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="infosec.exchange" type=FWD
@@ -16797,6 +16798,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nxta.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nxtdig.com.hk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nxtdig.com.tw" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nxtv.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nyaa.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nyaa.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nyaa.si" type=FWD
@@ -22654,6 +22656,9 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="underhentai.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="underlords.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="underwoodammo.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="unext-info.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="unext.co.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="unext.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="unfiltered.news" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="unholyknight.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="unidraw.io" type=FWD
