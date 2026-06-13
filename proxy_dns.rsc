@@ -16632,6 +16632,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nsfw247.to" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nsfwmemes.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nsimg.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nspk.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ntc.party" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ntd.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ntd.tv" type=FWD
