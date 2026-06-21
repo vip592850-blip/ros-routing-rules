@@ -26258,6 +26258,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="github-production-upload-manifest-file-7fdce7.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="github-production-user-asset-6210df.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gitlab-assets.oss-cn-hongkong.aliyuncs.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gog-cdn-lumen.secure2.footprint.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gog-cdn.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="google-ohttp-relay-safebrowsing.fastly-edge.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="hamivideo.hinet.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="hammerandchisel.ssl.zendesk.com" type=FWD
