@@ -9977,8 +9977,10 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gofucker.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gofuckmenow.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gofundme.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gog-services.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gog-statics.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gog.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gogalaxy.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gogettaxi.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gogle.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gogo-load.com" type=FWD
@@ -26761,6 +26763,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wwis-dubc1-vip98.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="wwis-dubc1-vip99.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="www-cdn.icloud.com.akadns.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="www.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="www.quora.com.cdn.cloudflare.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="yangzhi.app" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="yt3.googleusercontent.com" type=FWD
