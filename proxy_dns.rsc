@@ -9661,6 +9661,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gerritcodereview.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gesoten.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="get.app" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="get.dappcdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="get.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="get.how" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="get.new" type=FWD
