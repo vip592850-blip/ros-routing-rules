@@ -5900,6 +5900,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crazyxxxworld.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crbug.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="crchina.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="creader.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="creaders.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="creamasia.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="creamlemon.info" type=FWD
@@ -26211,7 +26212,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dmqdd6hw24ucf.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-pinata-support.s3.amazonaws.com" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="download.visualstudio.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqd0jw5gvbchn.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqrpb9wgowsf5.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ds-linear-abematv.akamaized.net" type=FWD
