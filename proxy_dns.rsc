@@ -8058,6 +8058,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="explorespanking.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="exporntoons.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="exposedlatinas.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="expressnews.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="expressvpn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="expresswifi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="exrates.me" type=FWD
