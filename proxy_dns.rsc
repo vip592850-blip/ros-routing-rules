@@ -5820,6 +5820,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="coova.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="coova.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="coova.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copilot.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copro.pw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copy-manga.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copy20.com" type=FWD
@@ -24153,6 +24154,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="webpkgcache.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="webrtc.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="websdr.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="webshare.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="website.new" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="webtoons.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="webtoonscorp.com" type=FWD
@@ -26408,6 +26410,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="oneocsp.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ood.opsource.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="openaiapi-site.azureedge.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="openaiassets.blob.core.windows.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="openaicom.imgix.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="openaicomproductionae4b.blob.core.windows.net" type=FWD
