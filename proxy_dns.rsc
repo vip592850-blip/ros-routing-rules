@@ -1886,6 +1886,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apple-pay.wang" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apple-store.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apple-store.wang" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apple-studies.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apple-usa.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apple-watch.com.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apple.ae" type=FWD
@@ -2388,6 +2389,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="atlassian-dev.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="atlassian.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="atlassian.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="atmeta.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="atnext.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="atokara.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="atom.io" type=FWD
@@ -2767,6 +2769,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azirevpn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aznude.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azure" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azure-api.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azure-devices-int.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azure-devices.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azure-dns.com" type=FWD
@@ -2804,6 +2807,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azureserviceprofiler.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azuresmartspaces.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azurestackvalidation.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azurestaticapps.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azurewebsites.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="b-cdn.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="b-eroland.net" type=FWD
@@ -26336,7 +26340,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="img-s-msn-com.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="impala-media-production.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="imperial.insendi.com" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ingest.apple-studies.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lastfm.freetls.fastly.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lazer.ppy.sh" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lgcscc-hamivideo2.cdn.hinet.net" type=FWD
