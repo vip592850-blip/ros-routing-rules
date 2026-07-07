@@ -17535,6 +17535,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="patreonusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paulsimon-music.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pavpal.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pawchive.pw" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pawchive.st" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pawoo.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paxful.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="paxlicense.org" type=FWD
