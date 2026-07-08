@@ -8858,6 +8858,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flowgpt.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flowhongkong.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flowtype.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flowwow-images.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flowwow.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fluffychat.im" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fluidfxapp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fluidpreview.com" type=FWD
@@ -9359,6 +9361,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="funkyimg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="funnyfacebook.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="funnyordie.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="funpay.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="funpay.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="funshemale.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fuq.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fuqqt.com" type=FWD
@@ -20204,6 +20208,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sforce.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sfshibao.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sftuk.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sfunpay.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sfx.ms" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sg120.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sg1lib.org" type=FWD
@@ -22136,6 +22141,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tilda.ws" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tildaapi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tildacdn.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tildacdn.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiltbrush.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timdir.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="time-messenger.ru" type=FWD
