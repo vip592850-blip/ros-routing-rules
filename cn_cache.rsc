@@ -8833,7 +8833,6 @@
 /ipv6 firewall address-list add list=CN_IPV6 address=2001:df1:d180::/48
 /ipv6 firewall address-list add list=CN_IPV6 address=2001:df1:da00::/48
 /ipv6 firewall address-list add list=CN_IPV6 address=2001:df1:f480::/48
-/ipv6 firewall address-list add list=CN_IPV6 address=2001:df1:fd80::/48
 /ipv6 firewall address-list add list=CN_IPV6 address=2001:df2:5780::/48
 /ipv6 firewall address-list add list=CN_IPV6 address=2001:df2:8bc0::/48
 /ipv6 firewall address-list add list=CN_IPV6 address=2001:df2:a580::/48

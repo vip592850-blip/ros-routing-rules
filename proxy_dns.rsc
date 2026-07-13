@@ -24103,6 +24103,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wbautomation.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wbautomation.tech" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wbbasket.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wbcontent.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wbd.ms" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wbdnbo.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wbdubna.ru" type=FWD
