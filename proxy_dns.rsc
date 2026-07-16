@@ -2797,6 +2797,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azuredns-prd.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azureedge-test.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azureedge.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azureedge.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azurefd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azureiotcentral.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="azureiotsolutions.com" type=FWD
@@ -5829,6 +5830,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="coova.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="coova.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="coova.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copilot-stg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copilot.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copro.pw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="copy-manga.com" type=FWD
@@ -14844,6 +14846,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mh4u.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mhcb.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mhcbr.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mhgui.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mhhanman.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mhqwe.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mhradio.org" type=FWD
@@ -21149,6 +21152,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="starfox.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stargazer-games.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stark-verlag.ch" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="starlink.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="starott.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="starp2p.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="starplus.com" type=FWD
@@ -26664,7 +26668,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="t21.nikkei.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="t21ipau.nikkei.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="teamviewer.com.cdn.cloudflare.net" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="tesla-cdn.thron.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="thumbnail-hamivideo.cdn.hinet.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="time-a-b.nist.gov" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="time-a-g.nist.gov" type=FWD
