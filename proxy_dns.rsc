@@ -16250,6 +16250,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nettyinternet.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="netvideogirls.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="netvigator.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="netxh.blog" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="netzerobuildings.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="netzerobuildingstudio.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="neuerporno.com" type=FWD
