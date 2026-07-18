@@ -18899,6 +18899,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qmp4.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qmttqg3k.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qnap.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qnapsupport.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qobuz.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qoder.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qombol.com" type=FWD
