@@ -25995,6 +25995,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zenlesszonezero.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zenmate.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zenmate.com.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zenmux.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zenodo.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zeplin.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="zeplin.io" type=FWD
