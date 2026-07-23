@@ -22265,6 +22265,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tok.media" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="token.im" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tokenlon.im" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tokenplus.app" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tokyo-hot.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tokyo-porn-tube.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tokyo-sports.co.jp" type=FWD
