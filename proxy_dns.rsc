@@ -5413,6 +5413,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cinepornogratis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cinny.in" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cios.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="circle19.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cirosantilli.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cisco" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cisco-returns.com" type=FWD
@@ -6929,6 +6930,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="docs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="docs.new" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="docs.rs" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="docs.rw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="doctor-videos.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="documentforce.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="documentingreality.com" type=FWD
@@ -13371,6 +13373,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="karabako-gmo.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="karafarinbank.ir" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="karayou.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kards.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="karechat.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="karger.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="karinahart.com" type=FWD
@@ -14047,6 +14050,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="localpresshk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="localxlist.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="lockestek.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="log.rw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="logi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="logicool.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="logicoolg.com" type=FWD
@@ -22492,6 +22496,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="truyenkk1.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="truyentranh86.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="truyenwk.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="try.rw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tryalias.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tryboobs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="trycloudflare.com" type=FWD
