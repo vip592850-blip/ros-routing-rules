@@ -9882,6 +9882,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubnext.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubpreview.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubstatus.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubsupport.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubuniverse.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gitlab-static.net" type=FWD
@@ -22497,6 +22498,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="truyentranh86.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="truyenwk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="try.rw" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tryai.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tryalias.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tryboobs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="trycloudflare.com" type=FWD
