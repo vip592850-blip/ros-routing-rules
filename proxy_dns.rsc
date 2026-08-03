@@ -18851,7 +18851,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pure18.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pureapk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pureconcepts.net" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="puredns.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pureinsight.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="purelov5.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="purelyceleb.com" type=FWD
@@ -19068,7 +19067,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="radiofarda.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="radioglobo.com.br" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="radiohilight.net" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="radiojar.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="radioline.co" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="radiomango.fm" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="radiomarsho.com" type=FWD
@@ -24689,7 +24687,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="www.ajsands.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="www.antd.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="www.aolnews.com" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="www.clashverge.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="www.cmoinc.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="www.destinationurl.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="www.eastturkistan.net" type=FWD
