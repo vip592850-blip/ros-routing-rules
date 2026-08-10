@@ -1056,6 +1056,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ai91porn.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aiaa.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aiasahi.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aihub.top" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aimei133.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aimsciences.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aiosearch.com" type=FWD
@@ -7993,6 +7994,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esforce.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esforce.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esg.t91y.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esim.redteago.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="eskimotube.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="eslite.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="esm.run" type=FWD
