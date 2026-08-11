@@ -6886,6 +6886,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="disqusservice.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dit-inc.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="divas.com.uy" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="divdyn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="diwodiwo.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="diyarbakirescort.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="diyin.org" type=FWD
