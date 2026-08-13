@@ -4610,6 +4610,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="buicha.social" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="building3dcontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="builtfromebay.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="builtwithnix.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bukkake-jav.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bullguard.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bullog.org" type=FWD
@@ -16061,6 +16062,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mynavi.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mynetname.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mynike.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mynixos.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="myoctocat.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="myparagliding.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mypearson.com" type=FWD
@@ -16755,7 +16757,15 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nivod.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nivodi.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nivodz.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nix-community.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nix.dev" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nix.store" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nixcon.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nixcon2017.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nixlang.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nixos.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nixos.wiki" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nixpkgs.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="niziero.info" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="njactb.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="njav.tv" type=FWD
@@ -25626,6 +25636,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandex.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandex.fi" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandex.fr" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandex.it" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandex.jobs" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandex.kg" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandex.kz" type=FWD
@@ -26576,6 +26587,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="na1r.services.adobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="nbbb1bb7.pmhcjk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="netflix.com.edgesuite.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="nix-community.github.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="notary-submissions-prod.s3-accelerate.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="notary-submissions-prod.s3.us-west-2.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="notebooklm-pa.googleapis.com" type=FWD
