@@ -19626,6 +19626,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rsdlmonitor.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rsf-chinese.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rsf.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rsg.ms" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rsg.sc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rshb.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rsk.co" type=FWD
@@ -19952,6 +19953,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sbux.com.my" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sbuxcard.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sc-cdn.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sc-gw.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sc-static.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sc.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sca-tolo.info" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scala-lang.org" type=FWD
