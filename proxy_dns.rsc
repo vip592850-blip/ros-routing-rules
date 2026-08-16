@@ -19750,6 +19750,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rutracker.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rutracker.nl" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rutracker.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rutracker.wiki" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rutrk.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rutube.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rutube.sport" type=FWD
