@@ -16805,6 +16805,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nonstopfap.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="noodlemagazine.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="noosferabank.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nordcdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nordstrom.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nordstromimage.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nordstrommedia.com" type=FWD
