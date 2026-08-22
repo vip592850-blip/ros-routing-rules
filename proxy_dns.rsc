@@ -4485,6 +4485,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="brewmp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="briantreepayments.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="briantreepayments.tv" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="briarproject.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bridge-studio.co.uk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bridgebim.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bridgestone" type=FWD
