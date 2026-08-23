@@ -11129,6 +11129,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="hippyhillscomix.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="hipzoom.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="hiroshimabank.co.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="historylines.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="historyofdota.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="historyofdota.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="historyofdota.org" type=FWD
@@ -13645,6 +13646,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kiwi.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kiwi.kz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kiwibrowser.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kiwix.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kiyobank.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kk-whys.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="kk.stream" type=FWD
@@ -14766,6 +14768,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mcdonaldsapps.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mcdonaldsarabia.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mcdonaldsparties.co.nz" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mceindex.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mcisco.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mcpeaceofmind.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mcrouter.net" type=FWD
