@@ -1823,6 +1823,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="api.moomoobull.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="api.news" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="api.palworldgame.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="api.shuaiapi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apiary.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apiauto.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="apibay.org" type=FWD
@@ -24876,6 +24877,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="x3guide.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="x3vid.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="x6av.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="x86.fr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="x99av.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xamarin.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xandr.com" type=FWD
