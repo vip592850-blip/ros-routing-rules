@@ -773,6 +773,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguard.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguard.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguardaccount.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguardaccount.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguardcdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adguardvpn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="adhelpnews.com" type=FWD
@@ -1803,6 +1804,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aodahl.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aofriend.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aokwholesale.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aolcdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aomedia.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aomiwang.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aorus.com" type=FWD
@@ -17500,6 +17502,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ourshemales.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="oursteps.com.au" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ourtv.hk" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ouryahoo.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="out-app-purchase.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="outbound.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="outdoorpublicsex.com" type=FWD
@@ -25623,6 +25626,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yahoodns.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yahoofinance.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yahoohealth.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yahooinc.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yahoomusic.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yahoosandbox.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yahoosportsbook.com" type=FWD
