@@ -6074,6 +6074,7 @@
 /ip firewall address-list add list=CN_V4 address=129.204.0.0/16
 /ip firewall address-list add list=CN_V4 address=129.211.0.0/16
 /ip firewall address-list add list=CN_V4 address=132.232.0.0/16
+/ip firewall address-list add list=CN_V4 address=134.49.240.0/22
 /ip firewall address-list add list=CN_V4 address=134.175.0.0/16
 /ip firewall address-list add list=CN_V4 address=137.59.59.0/24
 /ip firewall address-list add list=CN_V4 address=137.59.88.0/22

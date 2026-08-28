@@ -10633,6 +10633,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="h-webtoon.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="h0930.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="h18ani1.vip" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="h264.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="h2o.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="h2porn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="h528.com" type=FWD
@@ -16498,6 +16499,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nftstorage.link" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nga.mil" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ngeo.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ngfiles.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nginx.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nginx.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nginxconfig.io" type=FWD
