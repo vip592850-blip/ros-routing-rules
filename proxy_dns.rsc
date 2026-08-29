@@ -19432,6 +19432,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="relateiq.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="religionnews.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="remirepo.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="remna.st" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rencapbank.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="renchead.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rencredit.ru" type=FWD
@@ -24769,6 +24770,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wpoforum.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wpvip.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wrenchead.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="write.as" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="writesonic.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ws-blau.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ws-tcg.com" type=FWD
