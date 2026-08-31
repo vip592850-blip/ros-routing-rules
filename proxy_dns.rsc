@@ -9794,6 +9794,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getlantern.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getmalus.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getmdl.io" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getmonero.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getnews.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getoutline.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="getpaint.net" type=FWD
