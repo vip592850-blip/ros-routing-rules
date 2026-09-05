@@ -14050,6 +14050,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="linux.do" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="linux.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="linux.org.hk" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="linux.sb" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="linuxfoundation.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="linuxfromscratch.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="linuxmint.com" type=FWD
