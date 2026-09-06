@@ -35,6 +35,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="119474.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="11jav.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="123-hp.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="123av.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="123av.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="123bin.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="123dapp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="123dappipad.com" type=FWD
@@ -19589,6 +19591,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="roborecall.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="robotoffice.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="robustnessiskey.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="roc-taiwan.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rocket-inc.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rocket.chat" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rocketfishproducts.com" type=FWD
@@ -19633,6 +19636,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="roudaosp.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="roughebonysex.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="roughman.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="roushuwo.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="routerboard.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="routledgehandbooks.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rowblocks.com" type=FWD
@@ -21748,6 +21752,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="taipeitimes.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="taisounds.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="taiwanadultexpo.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="taiwanembassy.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="taiwanhot.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="taiwanjustice.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="taiwanncf.org.tw" type=FWD
@@ -24792,6 +24797,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wsjplus.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wsjshop.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wsjwine.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wtfpass.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wtfpeople.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wtmobile.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="wto.org" type=FWD
