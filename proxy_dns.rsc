@@ -26599,6 +26599,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="img-s-msn-com.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="impala-media-production.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="imperial.insendi.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lastfm-img.freetls.fastly.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lastfm.freetls.fastly.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lazer.ppy.sh" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lgcscc-hamivideo2.cdn.hinet.net" type=FWD
