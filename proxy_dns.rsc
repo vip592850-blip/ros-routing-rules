@@ -16814,6 +16814,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nodequality.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nodereal.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nodeseek.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nodeseek.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nodesource.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="noisullifb.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nokiantyres.com" type=FWD
