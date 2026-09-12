@@ -19060,6 +19060,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qt-project.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qt.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qtrac.eu" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="quakemachinex.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm-email.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm-inc.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="qualcomm.co.id" type=FWD
