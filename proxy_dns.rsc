@@ -21478,6 +21478,9 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripchat.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripe-terminal-local-reader.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripe.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripe.dev" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripe.events" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripe.global" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripe.network" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripecdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="stripparadise.com" type=FWD
@@ -26686,6 +26689,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="origin-a.akamaihd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="osu.ppy.sh" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="p-events-delivery.akamaized.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="p16-tiktok-dm-sticker-sign-sg.ibyteimg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="p16-tiktokcdn-com.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="packages.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="paper-attachments.s3.amazonaws.com" type=FWD
