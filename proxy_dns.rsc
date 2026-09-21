@@ -5721,6 +5721,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="code.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="codeberg.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="codeberg.page" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="codebuff.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="codecademy.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="codeforaliving.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="codeforces.com" type=FWD
@@ -8838,10 +8839,12 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fire-emblem-heroes.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firearmsworld.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebase.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebase.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebase.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebaseapp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firebaseio.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fireemblemawakening.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firefox-portal-detection.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firefox.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firefox.hu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="firefoxtweetmachine.com" type=FWD
@@ -9256,6 +9259,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="freebrowser.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="freebs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="freebsd.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="freebuff.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="freecamsfan.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="freecartoons.biz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="freechatnow.com" type=FWD
@@ -22004,6 +22008,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="textnow.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="texttobuy.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="texture.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tfbnw.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tfc-taiwan.org.tw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tferwq.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tfhub.dev" type=FWD
@@ -26547,9 +26552,10 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="faronics.kayako.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="favoritescc-hamivideo2.cdn.hinet.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="fbcdn-a.akamaihd.net" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebase.google.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebase.googleapis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebaseappcheck.googleapis.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebaseappdistribution.googleapis.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebaseapptesters.googleapis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebasedynamiclinks-ipv4.googleapis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebasedynamiclinks-ipv6.googleapis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebasedynamiclinks.googleapis.com" type=FWD
