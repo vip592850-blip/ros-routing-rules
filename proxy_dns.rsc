@@ -5385,6 +5385,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chinesegay.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chinesen.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chinesenews.net.au" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chineseposters.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chineseradioseattle.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chinesespanking.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="chineseupress.com" type=FWD
@@ -16844,6 +16845,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="norsk.mobi" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="norton.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="nos.nl" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="note.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notegpt.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="notepad-plus-plus.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="noticias-rt.com" type=FWD
