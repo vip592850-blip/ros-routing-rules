@@ -4768,6 +4768,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="c-msedge.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="c-span.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="c-spanvideo.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="c.go-mpulse.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="c.mi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="c0930.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="c2cx.com" type=FWD
@@ -23312,6 +23313,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vaultify.info" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vaultify.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vaultproject.io" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vava8.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vbcdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vbcdn.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vbejeyv.shop" type=FWD
