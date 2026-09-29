@@ -11636,6 +11636,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="huaren.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="huarenav.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="huarenporn.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="huarun.win" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="huashangnews.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="huashundg.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="huati.cc" type=FWD
@@ -14918,6 +14919,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="met-nude.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="meta.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="meta.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="metaaivm.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="metabora.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="metabrainz.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="metacloud.com" type=FWD
@@ -15927,6 +15929,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="muscache.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="muscdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="musclegirlflix.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="muse.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mushroomtrack.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mushymush.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="musical.ly" type=FWD
@@ -17394,6 +17397,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openbook.org.tw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="opencas.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openclaw.ai" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="opencode.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="opencollective.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="opencreate.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="opencritic.com" type=FWD
@@ -26576,6 +26580,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gamedownloads-rockstargames-com.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gamer-cds.cdn.hinet.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gamer2-cds.cdn.hinet.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="geminiweb-pa.clients.google.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="geminiweb-pa.clients6.google.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gigabyte2.azureedge.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="github-api.arkoselabs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="github-cloud.s3.amazonaws.com" type=FWD
