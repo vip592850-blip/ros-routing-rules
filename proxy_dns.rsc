@@ -9516,6 +9516,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fututrade.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fututrustee.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fuxporn.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fuyin116.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fuzokudx.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fw.cm" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fxcm-chinese.com" type=FWD
