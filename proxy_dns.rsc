@@ -5546,6 +5546,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="clau.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claude.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claude.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claude.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claudemcpclient.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claudemcpcontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="claudeusercontent.com" type=FWD
