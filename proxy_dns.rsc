@@ -10420,6 +10420,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="googlepagecreator.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="googlephotos.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="googleplay.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="googleplaycensorship.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="googleplus.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="googlescholar.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="googlesource.com" type=FWD
