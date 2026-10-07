@@ -14871,6 +14871,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mega.co.nz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mega.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mega.nz" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megaad.nz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megacamz.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megaeth.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megafilmporno.com" type=FWD
@@ -14881,11 +14882,13 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megamarket.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megamarket.tech" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megamon.co.kr" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megapay.nz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megaphone.fm" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megapornfreehd.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megaporno.com.br" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megapornpics.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megaproxy.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megas4.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megasrv.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megatitsminka.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="megogo.net" type=FWD
@@ -22611,6 +22614,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="transangels.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="transarmuito.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="transcamslive.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="transfer.it" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="transferwise.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="translatetheweb.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="translatewiki.net" type=FWD
