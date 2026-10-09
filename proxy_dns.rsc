@@ -26488,6 +26488,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="cloudsync-prod.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="configuration-lb.ls-apple.com.akadns.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilot-proxy.githubusercontent.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilot-telemetry-service.githubusercontent.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilot-telemetry.githubusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilot-workspace.githubnext.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilotprodattachments.blob.core.windows.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="crl.microsoft.com" type=FWD
@@ -26656,6 +26658,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="img-s-msn-com.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="impala-media-production.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="imperial.insendi.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="incoming-telemetry.thunderbird.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="incoming.telemetry.mozilla.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lastfm-img.freetls.fastly.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lastfm.freetls.fastly.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lazer.ppy.sh" type=FWD
