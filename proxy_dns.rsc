@@ -18335,6 +18335,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="playstation" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="playstation.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="playstation.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="playstationnetwork.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="playvalorant.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="playvids.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="playwarcraft3.com" type=FWD
@@ -20095,6 +20096,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scatville.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scb.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scdn.co" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scea.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scene7.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scenesource.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="scharferporno.com" type=FWD
@@ -21059,6 +21061,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sony.com.pa" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sony.com.pe" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sony.com.ph" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sony.com.py" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sony.com.sg" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sony.com.sv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sony.com.tr" type=FWD
@@ -21102,8 +21105,10 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonydna.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonyentertainmentnetwork.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonyglobalsolutions.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonyinteractive.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonykigyo.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonylatvija.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonymusic.com.hk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonynetwork.co.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonypcl.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sonypictures.com" type=FWD
