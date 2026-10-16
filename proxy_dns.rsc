@@ -489,6 +489,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="7tb.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="7tv.app" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="7tv.io" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="7x24hrs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="8-d.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="8008206616.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="8111y.top" type=FWD
