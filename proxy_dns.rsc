@@ -2369,7 +2369,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asmr.gay" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asmrbuluo.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asn-online.org" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asobostudio.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asp-cc.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="asp.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aspbjournals.org" type=FWD
@@ -3355,8 +3354,15 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beforeigners.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="befuck.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="befuck.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.app" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.cloud" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.de" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.hosting" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.pro" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.tech" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="begetcdn.cloud" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="begin-trade.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="behance.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="behindthescreenz.com" type=FWD
@@ -3389,6 +3395,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="berlinerbericht.de" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="berlintwitterwall.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beru.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beserver.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="best-sex-games.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="best2pay.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="best4bim.com" type=FWD
@@ -3499,6 +3506,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bffshd.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bfnn.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bfsh.hk" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bget.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bgicdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bgm.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bgme.me" type=FWD
@@ -6133,6 +6141,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cursor.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cursor.sh" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cursorapi.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cursorvm.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="curve.fi" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="curvefish.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="curvybbwwives.com" type=FWD
@@ -8965,7 +8974,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flickr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flickr.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flickr.net" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flightsimulator.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flipboard.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flipfap.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="flipkart.com" type=FWD
@@ -17471,6 +17479,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="opac-project.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="open.firstory.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openai.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openai.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openamt.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openapiplatform.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="openapiservice.com" type=FWD
@@ -19072,6 +19081,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pussyspace.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="putinho.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="putty.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pv-cdn.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pvp.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pvp.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="pvt.sexy" type=FWD
@@ -20111,6 +20121,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="schwab.com.hk" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="schwab.com.sg" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="schwabassetmanagement.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="schwabcdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="schwabplan.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sci-hub.ee" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sci-hub.it.nf" type=FWD
@@ -21261,6 +21272,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="springwood.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sprinklesapp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sproutcore.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sprut.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sptvbroadcast.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sputnikglobe.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sputnikimages.com" type=FWD
@@ -22470,6 +22482,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timestalks.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timeweb.cloud" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timeweb.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timeweb.tech" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timewebcloud.kz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timi1.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timo0.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="timtales.com" type=FWD
@@ -23047,6 +23061,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="typekit.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="typenetwork.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="typepad.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="typesafe.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="typeset.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="typesquare.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="typography.com" type=FWD
@@ -25240,6 +25255,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--90ab.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--90ab2c.xn--p1ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--90absjljw3g.xn--p1ai" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--90aefb9d.xn--p1ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--90aifd0az.shop" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--90aifd0azb.xn--p1acf" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="xn--90wwvt03e.com" type=FWD
@@ -26623,6 +26639,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d2xmjdvx03ij56.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d31dormfno8pk4.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d33wubrfki0l68.cloudfront.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d348twzf7a8p5.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d36nr0u3xmc4mm.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d3aqoihi2n8ty8.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="d3c27h4odz752x.cloudfront.net" type=FWD
@@ -26647,6 +26664,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="deutschewelle.h-cdn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="developer.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="developers.facebook.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="devforum-uploads.s3.dualstack.us-east-2.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dfp6rglgjqszk.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dgeft87wbj63p.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="discord-attachments-uploads-prd.storage.googleapis.com" type=FWD
@@ -26657,6 +26675,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dmqdd6hw24ucf.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-pinata-support.s3.amazonaws.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="doy2mn9upadnk.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqd0jw5gvbchn.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqrpb9wgowsf5.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ds-linear-abematv.akamaized.net" type=FWD
@@ -26704,7 +26723,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebaseperusertopics-pa.googleapis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firebaseremoteconfig.googleapis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="firstsearch.oclc.org" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="flightsimulator.azureedge.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="fontshop-prod-responsive-images.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="foxnewsplayer-a.akamaihd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="gamedownloads-rockstargames-com.akamaized.net" type=FWD
