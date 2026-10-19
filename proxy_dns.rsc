@@ -14489,6 +14489,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="magestic.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="magicalmirai.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="magicmovies.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="magnific.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mahajantech.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mahjongsoul.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="maidonanews.jp" type=FWD
@@ -15960,6 +15961,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mt0011.site" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mtao.fun" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mthruf.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mts-link.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mts-ws.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mts.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="mtsbank.ru" type=FWD
@@ -18808,6 +18810,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="postimages.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="postimg.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="postini.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="postman.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="posts.careerengine.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="posty.kr" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="postyourgirls.ws" type=FWD
@@ -26770,6 +26773,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="imperial.insendi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="incoming-telemetry.thunderbird.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="incoming.telemetry.mozilla.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="kp-config-smart-tv.akamaized.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="kp-configs-smart-tv.s3.eu-central-1.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lastfm-img.freetls.fastly.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lastfm.freetls.fastly.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="lazer.ppy.sh" type=FWD
