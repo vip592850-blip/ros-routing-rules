@@ -2686,8 +2686,10 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avinin.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avira.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avistaz.to" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avito.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avito.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avito.st" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avito.tech" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avizoon.site" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avizoone.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="avjb.com" type=FWD

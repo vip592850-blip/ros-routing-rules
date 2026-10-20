@@ -1095,6 +1095,7 @@
 /ip firewall address-list add list=CN_V4 address=45.117.68.0/22
 /ip firewall address-list add list=CN_V4 address=45.117.124.0/22
 /ip firewall address-list add list=CN_V4 address=45.117.252.0/22
+/ip firewall address-list add list=CN_V4 address=45.119.42.0/23
 /ip firewall address-list add list=CN_V4 address=45.119.52.0/22
 /ip firewall address-list add list=CN_V4 address=45.119.60.0/22
 /ip firewall address-list add list=CN_V4 address=45.119.64.0/22
