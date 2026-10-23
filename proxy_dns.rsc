@@ -9629,6 +9629,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="g0v.social" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="g1.com.br" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="g6hentai.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ga.jspm.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gab.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gabocorp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gacebook.com" type=FWD
