@@ -13025,6 +13025,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="iutunes.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ivacy.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ivi.ru" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ivi.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ivicdn.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ivintageporn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ivonblog.com" type=FWD
