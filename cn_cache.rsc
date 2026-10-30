@@ -9596,6 +9596,7 @@
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:7da0::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:7e20::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:7ee0::/32
+/ipv6 firewall address-list add list=CN_IPV6 address=2402:8160::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:8180::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:8300::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2402:8380::/32

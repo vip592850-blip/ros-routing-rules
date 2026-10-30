@@ -119,6 +119,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="18comic-god.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="18comic.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="18comic.company" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="18comic.ink" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="18comic.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="18comic.vip" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="18commic.com" type=FWD
@@ -3660,6 +3661,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bingoporno.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bingparachute.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bingsandbox.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bingstatic.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bingvisualsearch.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bingworld.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bingx.com" type=FWD
@@ -4615,6 +4617,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bscdnweb.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bsi.ir" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bsky.app" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bsky.chat" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bsky.network" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bsky.social" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bspb.ru" type=FWD
@@ -10064,6 +10067,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubassets.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubcopilot.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubhackathon.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubhelp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubnext.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubpreview.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="githubstatus.com" type=FWD
@@ -15990,6 +15994,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="msfteducation.ca" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="msftncsi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="msftnet.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="msftstatic.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="msgamesresearch.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="msgamestudios.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="msha.gov" type=FWD
@@ -22511,9 +22516,12 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokglobalshopv.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokminis.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokrow-cdn.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokshop.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokstaticb.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokv.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokv.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokv.us" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokvapp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokw.eu" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tiktokw.us" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="tilda.cc" type=FWD
