@@ -22704,6 +22704,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="torproject.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="torrentgalaxy.to" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="torrentkitty.tv" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="torrentleech.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="torrentprivacy.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="torrentproject.se" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="torrenty.org" type=FWD
@@ -26282,6 +26283,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="youtubekids.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="youtubemobilesupport.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="youversion.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="youversionapi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="youwin.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="youwuss.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="youx.xxx" type=FWD
