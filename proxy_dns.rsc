@@ -3369,6 +3369,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.cloud" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.de" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.email" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.hosting" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.pro" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="beget.ru" type=FWD
@@ -3592,6 +3593,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bili2.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bili888.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bili999.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bilibili.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="bilinovel.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="biliplus.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="biliworld.com" type=FWD
