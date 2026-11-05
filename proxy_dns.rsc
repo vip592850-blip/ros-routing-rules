@@ -14146,6 +14146,9 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="lilhumpers.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="liliav.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="lilith-soft.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="limbuscompany.global" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="limbuscompanyapi.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="limbuscompanycdn.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="limedia.tw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="limelight.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="limer.tw" type=FWD
@@ -19043,6 +19046,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="projectcircuitbreaker.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="projecteuclid.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="projectjav.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="projectmoon.studio" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="projectmurphy.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="projectpoint.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="projectpoint.net" type=FWD
@@ -20895,6 +20899,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="skillshare.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="skimtube.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="skinstrip.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="skinswap.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="skokka.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sksarab.top" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="skunkgirl.cc" type=FWD
