@@ -10665,6 +10665,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gridaware.app" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grindr.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grok.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grokbot.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grokipedia.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grooby.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="groq.com" type=FWD
@@ -26841,6 +26842,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="homebrew.bintray.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="hpefonts.s3.amazonaws.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="hpstore.corpmerchandise.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="http-intake.logs.us5.datadoghq.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="hub.slarker.me" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="hulu.playback.edge.bamgrid.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="i.jeded.com" type=FWD
@@ -26926,6 +26928,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="nurofensk-prod-env.eu-west-1.elasticbeanstalk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="nvidia.custhelp.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="nvidia.tt.omtrdc.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="o1158394.ingest.us.sentry.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="ocsp.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="officecdn-microsoft-com.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="onekey.zendesk.com" type=FWD
@@ -26954,6 +26957,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="prd-priconne-redive.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="preprod-publicca.googleapis.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="prodforza.blob.core.windows.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="production-copilot-host-westus.webpubsub.azure.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="production-openaicom-storage.azureedge.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="productionresultssa0.blob.core.windows.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="productionresultssa1.blob.core.windows.net" type=FWD
