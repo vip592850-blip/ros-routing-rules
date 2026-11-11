@@ -10612,6 +10612,8 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grabhentai.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grabpussy.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gradeuptube.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grafana.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grafana.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="grafolio.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="graias.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="graiasmovies.com" type=FWD
@@ -19279,6 +19281,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="quatrowireless.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="quatrum.com.br" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="quay.io" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="questionablequesting.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="questvisual.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="quicinc.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="quickbook.com.br" type=FWD
@@ -21264,6 +21267,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="soyjak.party" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="soyjak.st" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sp.cool" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spacebattles.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spaceexplored.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spaceforce.mil" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spacely.com.au" type=FWD
@@ -23433,6 +23437,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="v.recipes" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="v2.help" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="v2.hysteria.network" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="v2ex.co" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="v2ex.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="v2fly.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="v2ph.com" type=FWD
