@@ -391,6 +391,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="51luoben.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="51luoli.info" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="51mh.app" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="51papaya.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="51pincha.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="51tuqiang.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="520aa.tv" type=FWD
