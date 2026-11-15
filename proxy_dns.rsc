@@ -6400,6 +6400,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="deasians.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="debank.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="debian.org" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="debot.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="debug.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="debugproject.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="decentr.net" type=FWD
@@ -19640,6 +19641,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="relateiq.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="religionnews.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="remirepo.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="remna.dev" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="remna.st" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="rencapbank.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="renchead.com" type=FWD
@@ -26661,6 +26663,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="bnetproduct-a.akamaihd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="bnetshopus.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="brightcove.imgix.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="builds.dotnet.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="bybit-exchange.github.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="bybit.ada.support" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="c.ppy.sh" type=FWD
@@ -26763,6 +26766,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dmqdd6hw24ucf.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="docker-pinata-support.s3.amazonaws.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dotnetcli.trafficmanager.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="doy2mn9upadnk.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqd0jw5gvbchn.cloudfront.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="dqrpb9wgowsf5.cloudfront.net" type=FWD
@@ -27131,6 +27135,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="steamuserimages-a.akamaihd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="steamvideo-a.akamaihd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="sundry-star-net-geo.trafficmanager.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="supercell.helpshift.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="supercell.zendesk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="t.ssp.hinet.net" type=FWD
