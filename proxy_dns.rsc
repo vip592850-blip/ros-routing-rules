@@ -6217,6 +6217,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cybertrust.ne.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cyberx.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cygames.co.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cygames.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cygames.jp" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cygwin.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cylink.pro" type=FWD
@@ -25983,6 +25984,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yaya.cyou" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yayadizhi.xyz" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yazhouse8.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yb-payment.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yccdn.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yclients.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ycombinator.com" type=FWD
