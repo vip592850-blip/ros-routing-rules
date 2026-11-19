@@ -7817,6 +7817,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="elephanttubenew.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="elevenlabs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="elevenlabs.io" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="elevenlabsusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="elgaronline.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="elgoog.im" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="elifesciences.org" type=FWD
@@ -25949,7 +25950,6 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandexgo.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandexlyceum.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandexwebcache.net" type=FWD
-/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yandexwebcache.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yango-b2b.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yango-team.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="yango-tech.com" type=FWD
