@@ -10596,7 +10596,6 @@
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:bc80::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:bd40::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:bd80::/32
-/ipv6 firewall address-list add list=CN_IPV6 address=2406:bdc0::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:be80::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:bf80::/32
 /ipv6 firewall address-list add list=CN_IPV6 address=2406:c080::/32
