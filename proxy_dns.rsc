@@ -9821,6 +9821,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gemfire.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gemfury.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gemini.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gemma.ai" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gen.lib.rus.ec" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="genbank.ru" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="gencraft.com" type=FWD
