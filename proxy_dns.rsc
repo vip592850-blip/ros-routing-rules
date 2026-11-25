@@ -4808,6 +4808,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cabletvdirectv.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cachefly.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cachefly.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cachix.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cacnw.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cactusvpn.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="cad-mep.com" type=FWD
@@ -8652,10 +8653,12 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastlane.ci" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastlane.tools" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastly-edge.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastly-insights.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastly-terrarium.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastly.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastly.io" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastly.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastlydns.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastlylabs.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastlylb.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fastpic.ru" type=FWD
@@ -23916,6 +23919,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="viu.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vivaldi.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vivaxnxx.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vivox.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vivthomas.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vixen.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="vixengroup.com" type=FWD
@@ -26603,6 +26607,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilot-telemetry.githubusercontent.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilot-workspace.githubnext.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="copilotprodattachments.blob.core.windows.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="courses.myecnu.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="crl.microsoft.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="crl.versign.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="csis-prod.s3.amazonaws.com" type=FWD
