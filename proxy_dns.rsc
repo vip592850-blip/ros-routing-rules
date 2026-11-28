@@ -1066,6 +1066,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="ai91porn.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aiaa.org" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aiasahi.jp" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aicu.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aidc.com.tw" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aihub.top" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="aimei133.com" type=FWD
@@ -6261,6 +6262,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dandanplay.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dandanzan.cc" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="danke4china.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="danmakus.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="danmarkbeatsbydrdre.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="danskpornofilm.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="dansmovies.com" type=FWD
@@ -8721,6 +8723,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fc2ppv.tv" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fcacebook.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fcaebook.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fce.gg" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fcebook.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fcebookk.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="fcfacebook.com" type=FWD
@@ -21201,6 +21204,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="soyjak.st" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="sp.cool" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spacebattles.com" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spacedesk.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spaceexplored.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spaceforce.mil" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=yes name="spacely.com.au" type=FWD
@@ -26573,6 +26577,7 @@
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="assets.ppy.sh" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="audio-ak-spotify-com.akamaized.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="audio4-ak-spotify-com.akamaized.net" type=FWD
+/ip dns static add forward-to=8.8.8.8 match-subdomain=no name="aurora-customization-usw2.lithium.com" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="avatargarenanow-a.akamaihd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="az764295.vo.msecnd.net" type=FWD
 /ip dns static add forward-to=8.8.8.8 match-subdomain=no name="azure.microsoft.com" type=FWD
